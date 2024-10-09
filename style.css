@@ -180,6 +180,10 @@ h2 {
     .card {
         width: 12rem;
     }
+    .button{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -187,6 +191,7 @@ h2 {
         width: 100%;
         margin-bottom: 15px;
     }
+  
 }
 
 /* Button Styling */
@@ -207,8 +212,8 @@ button:hover {
 }
 
 @media (max-width: 768px) {
-    button {
-        width: 100%;
+    .button {
+        width: 45%;
     }
 }
 
