@@ -10,6 +10,16 @@
             subscribeSection.classList.add('appear');
         }
     });
+    let menuList = document.getElementById("menuList");
+menuList.style.maxHeight = "0px";
 
+function toggleMenu() {
+    if (menuList.style.maxHeight == "0px") {
+        menuList.style.maxHeight = "300px";
+        menuList.style.visibility = "visible";
+    } else {
+        menuList.style.maxHeight = "0px";
+        menuList.style.visibility = "hidden";
+    }
+}
 
-    
